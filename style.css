@@ -1,0 +1,132 @@
+/* css stylesheet for all three pages index.html,index2.html and index3.html  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#background-img{
+    height:100%;
+    background-image: url('Avengers-Endgame-Roster.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+/*navbar css properties for all three pages*/
+nav{
+    box-shadow: rgba(241, 63, 4, 0.898) 0px 3px 8px;
+}
+.navbar-brand{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    font-style: Bold;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+/* Css style for nav button Home and Favourite  */
+.font-dis{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*  Css style for nav background color */
+.nav-colors{
+    background-color:#1e4f8deb;
+
+}
+
+/*css properties for index.html or home page*/
+#search-bar{
+    margin-top: 100px;
+    border: 1px solid rgb(249, 16, 4);
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 24px;
+    color:rgb(255, 0, 0);
+    box-shadow: rgba(60, 60, 169, 0.966) 0px 7px 29px 0px;
+}
+#search-icon{
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#my-search{
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 100%
+}
+
+h4{
+    font-weight: 900;
+    font-size: 40px;
+    color: cyan;
+}
+
+
+
+
+#cards-group{
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px;
+    cursor: pointer;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.icon:hover{
+    color:rgb(255, 0, 0);
+}
+
+
+
+/*css properties for index2.html or hero details page */
+#hero-main{
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(231, 1, 89, 0.74) 0px 30px 60px -12px inset, rgb(245, 230, 20) 0px 18px 36px -18px inset;;
+}
+#img{
+    width: 100%;
+    height: 100%;
+}
+#hero-details{
+    width: 70%;
+    height: 100%;
+}
+.heading{
+    border-radius: 10px;
+    background-color:grey;
+    padding: 5px 0px;
+}
+
+
+/*css properties for index3.html or favourite hero's page */
+#fv-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
